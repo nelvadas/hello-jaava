@@ -1,0 +1,17 @@
+    <jboss-web xmlns="http://www.jboss.com/xml/ns/javaee"
+
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"         
+
+     xsi:schemaLocation="http://www.jboss.com/xml/ns/javaee http://www.jboss.org/j2ee/schema/jboss-web_7_1.xsd" version="7.1">                   
+
+            <context-root>/</context-root>
+            <session-config>
+
+                            <tracking-mode>URL</tracking-mode>
+
+                            <session-timeout>30</session-timeout>
+
+            </session-config>
+
+            <!-- <disable-cross-context>true</disable-cross-context>  -->
+    </jboss-web>
