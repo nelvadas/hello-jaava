@@ -1,0 +1,7 @@
+node('maven') {
+  stage('Deploy') {
+    
+    openshiftVerifyDeployment depCfg: 'helloworld', replicaCount: 1, verifyReplicaCount: true
+  }
+  
+}
